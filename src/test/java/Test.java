@@ -5,7 +5,7 @@ import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-class CallbackTest {
+class DebitCardApplication {
     @Test
     void shouldSubmitRequest() {
         open("http://localhost:9999");
